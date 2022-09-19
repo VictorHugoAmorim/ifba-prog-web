@@ -1,0 +1,15 @@
+Lei de Proteção de Dados
+A Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP), de nº 13.709, de 14/08/2018, regulamenta as atividades de tratamento de dados pessoais. Com a LGPD, o Brasil passou a fazer parte dos países que contam com uma legislação específica para proteção de dados e da privacidade dos seus cidadãos.
+
+Proteção de DadosA legislação se fundamenta em diversos valores, como o respeito à privacidade; à autodeterminação informativa; à liberdade de expressão, de informação, comunicação e de opinião; à inviolabilidade da intimidade, da honra e da imagem; ao desenvolvimento econômico e tecnológico e a inovação; à livre iniciativa, livre concorrência e defesa do consumidor e aos direitos humanos de liberdade e dignidade das pessoas.
+
+A LGPD cria um conjunto de novos conceitos jurídicos (por exemplo, "dados pessoais" e "dados pessoais sensíveis"), estabelece as condições nas quais os dados pessoais podem ser tratados, define um conjunto de direitos para os titulares dos dados, gera obrigações específicas para os controladores dos dados e cria uma série de procedimentos e normas para que haja maior cuidado com o tratamento de dados pessoais e compartilhamento com terceiros. Mudanças na legislação foram introduzidas com a aprovação da Lei nº 13.853, de 08/07/2019, a saber:
+
+Criação da Autoridade Nacional de Proteção de Dados (ANPD), vinculando-a à Presidência da República e estabelecendo sua autonomia técnica e decisória;ANPD
+Interesse nacional da proteção de dados, de modo a evitar, assim, a proliferação de leis estaduais e municipais que tentem regular a matéria;
+Exclusão da obrigatoriedade de que seja informado titular de dados nos casos de tratamento de dados pessoais para cumprimento de obrigação legal ou regulatória ou quando efetuado pela administração pública, para execução de políticas públicas previstas em normas ou contratos;
+Ampliação das hipóteses de comunicação e de uso compartilhado de dados sensíveis referentes à saúde, explicitando a abrangência a aqueles relacionados à assistência farmacêutica e serviços auxiliares de diagnose e terapia.
+Vedação, às operadoras de planos de saúde, do uso dos dados de saúde para realizar a seleção de riscos, ou para fins de contratação ou exclusão de beneficiários;
+Inclusão da possibilidade de dispensa de comunicação pelo responsável ao agente de tratamento de dados (no caso de compartilhamento de dados que tenham sofrido correção, eliminação, anonimização ou bloqueio de dados, quando essa comunicação se demonstrar impossível ou representar esforço desproporcional);
+Estabelecimento de condições para os casos de compartilhamento de dados pessoais, constantes de bases nos órgãos do governo, para entidades privadas.
+As modificações aprovadas foram fundamentais para a aplicabilidade da lei. Visto que, com o veto à criação da ANPD, quando da aprovação da Lei nº 13.709, a regulamentação corria o risco de tornar-se inexequível, contrariando um sistema que tem demonstrado eficácia mundial.

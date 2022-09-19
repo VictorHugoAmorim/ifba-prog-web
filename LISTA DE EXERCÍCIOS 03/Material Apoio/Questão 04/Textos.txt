@@ -1,0 +1,31 @@
+Carta de Cafés
+
+Affogato
+Combinação de sorvete com café, em que o café quente harmonizado ao sorvete resulta em uma deliciosa receita.
+
+R$ 12,33
+
+Café Americano
+Estilo de café preparado por adição de água quente no café, dando uma força semelhante ao do café do gotejamento regular, mas sabor diferente.
+
+R$ 7,10
+
+Café Mocha
+Normalmente feito com um terço de expresso e dois terços de leite vaporizado, acrescentando-se, além disso, uma porção de chocolate em forma de pó adoçado.
+
+R$ 9,21
+
+Cappuccino
+De origam italiana, sua preparação tradicional inclui um terço de café expresso, um terço de leite vaporizado e um terço de espuma de leite vaporizado
+
+R$ 6,99
+
+Frappuccino
+Preparado com essência de baunilha e batido com creme e gelo (além de receber doses de café espresso), é finalizado com calda de caramelo.
+
+R$ 8,45
+
+Irish Coffee
+A base de café, uísque irlandês, açúcar e chantilly, surgiu na Irlanda na decáda de 1940 para servir passageiros que estavam com frio depois de um voo cancelado.
+
+R$ 11,74
