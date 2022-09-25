@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    height: 70px;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+}
+
+.classification {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.id_classification {
+    font-weight: bold;
+    text-align: left;
+    
+}
+.border_bottom {
+    border-bottom: 1px solid black;
+}
