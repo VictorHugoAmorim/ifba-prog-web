@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Inscrição</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Corridas de rua de várzea alegre 2015</h1>
+        <h2 style="text-align:left ;">Ficha de Inscrição	</h2>
+    </header>
+    <form action=" https://jkorpela.fi/cgi-bin/echo.cgi" autocomplete="off">
+        <ul>
+            <li>
+                <label for="id_nome">Nome:</label>
+                <input type="text" name="Nome" id="id_nome">
+            </li>
+            <li>
+                <label for="id_dt_nasc">Data de Nascimento</label>
+                <input type="date" name="dt_nasc" id="id_dt_nasc">
+            </li>
+            <li>
+                <label for="id_rg">RG:</label>
+                <input type="text" name="rg" id="id_rg">
+            </li>
+            <li>
+                <label for="id_cpf">CPF:</label>
+                <input type="text" name="cpf" id="id_cpf" required maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-d{2}">
+            </li>
+            <li>
+                <label for="id_sexo">Sexo:</label>
+                <select name="sexo" id="id_sexo">Sexo:
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                </select>
+            </li>
+            <li>
+                <label for="id_end">Endereço:</label>
+                <input type="text" name="endereco" id="id_end">
+            </li>
+            <li>
+                <label for="id_nmr">Nº:</label>
+                <input type="text" name="nmr" id="id_nmr">
+            </li>
+            <li>
+                <label for="id_cidade">Cidade:</label>
+                <input type="text" name="cidade" id="id_cidade">
+            </li>
+            <li>
+                <label for="Email">Email:</label>
+                <input type="email" name="email" id="id_email">
+            </li>
+            <li>
+                <label for="id_cel">Celular:</label>
+                <input type="text" name="cel" id="id_cel">
+            </li>
+            <li>
+                <label for="id_estado">Estado:</label>
+                <select name="estado" id="id_estado">
+                    <option "ac">Acre</option>
+                    <option "al">Alagoas</option>
+                    <option "ap">Amapá</option>
+                    <option "am">Amazonas</option>
+                    <option "ba">Bahia</option>
+                    <option "ce">Ceara</option>
+                    <option "df">Distrito Federal</option>
+                    <option "es">Espírito Santo</option>
+                    <option "go">Goiás</option>
+                    <option "ma">Maranhão</option>
+                    <option "mt">Mato Grosso</option>
+                    <option "ms">Mato Grosso do Sul</option>
+                    <option "mg">Minas Gerais</option>
+                    <option "pa">Pará</option>
+                    <option "pb">Paraíba</option>
+                    <option "pr">Paraná</option>
+                    <option "pe">Pernambuco</option>
+                    <option "pi">Piauí</option>
+                    <option "rj">Rio de Janeiro</option>
+                    <option "rn">Rio Grande do Norte</option>
+                    <option "rs">Rio Grande do Sul</option>
+                    <option "ro">Rondônia</option>
+                    <option "rr">Roraima</option>
+                    <option "sc">Santa Catarina</option>
+                    <option "sp">São Paulo</option>
+                    <option "se">Sergipe</option>
+                    <option "to">Tocantins</option>
+                </select>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>Faixa Etária:</legend>
+                    <ul>
+                        <label>
+                            <li>
+                                <input type="radio" name="faixa-etaria" value="16-19">16 a 19 anos
+                            </li>
+                        </label>
+                        <li>
+                            <label>
+                                <input type="radio" name="faixa-etaria" value="20-29">
+                                20 a 29 anos
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="faixa-etaria" value="30-39">
+                                30 a 39 anos
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="faixa-etaria" value="40-49">
+                                40 a 49 anos
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="faixa-etaria" value="50-59">
+                                50 a 59 anos
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="faixa-etaria" value="60+">
+                                60 anos ou mais
+                            </label>
+                        </li>
+                    </ul> 
+                </fieldset>
+            </li>
+            <li>
+                <fieldset>
+                    <legend>Categoria (Competição)</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="categoria" value="1">
+                                Corrida Geral de 6 Quilômetros
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="categoria" value="2">
+                                Corrida Local de 6 Quilômetros
+                            </label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="categoria" value="3">
+                            Corrida de Revezamento
+                        </li>
+                    </ul>
+                </fieldset>
+            </li>
+            <li>
+                <label for="id_pag">Comprovante de pagamento</label>
+                <input type="file" name="pag" id="id_pag">
+            </li>
+            <li>
+                <input type="reset" value="Redefinir">
+                <input type="submit" name="Enviar">
+            </li>
+        </ul>
+
+    </form>
+</body>
+</html>
