@@ -1,0 +1,22 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.superior-esquerdo{
+    left: 20px;
+    top: 20px;
+}
+.superior-direito{
+    right: 20px;
+    top: 20px;
+}
+.inferior-direito{
+    right: 20px;
+    bottom: 20px;
+}
+.inferior-esquerdo{
+    left: 20px;
+    bottom: 20px;
+}
