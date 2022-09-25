@@ -34,3 +34,16 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 80px;
 }
+.center{
+    text-align: center;
+}
+
+.ex-03-h2{
+    text-align: center;
+}
+div {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
