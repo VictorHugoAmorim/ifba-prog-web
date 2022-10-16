@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+</head>
+<body>
+    <h1>Curso em Audiovisual<br>Projeto: AGENTE CULTURAL DAS COMUNIDADES AYHUASQUEIRAS II</h1>
+    <h2>ficha de inscrição</h2>
+    <p>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi">
+        <label for="id_nome">
+            01-NOME COMPLETO (utilizar letra legível)
+            <input type="text" name="nome" id="id_nome">
+         </label>
+    </p>
+    <p>
+        <label for="id_sexo">
+            02-SEXO
+            <select name="sexo" id="id_sexo">
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label for="id_data">
+            03-Data de nascimento
+            <input type="date" id="id_data">
+        </label>
+    </p>
+    <p>
+        <label for="cpf">
+            04-CPF
+            <input id="cpf" type="text" maxlength="14" required pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}\">
+        </label>
+    </p>
+    <p>
+        <label for="rg">
+            05-RG/SSP
+            <input id="rg" type="text">
+        </label>
+    </p>
+    <p>
+        <fieldset>
+            <legend>06-ENDEREÇOS (logradouro, número e complemento)</legend>
+            <label for="id_end">
+                <input id="id_end" type="text">
+            </label>
+            </fieldset>
+    </p>
+    <p>
+        <label for="cep">
+            07-CEP
+            <input id="cep" type="text" maxlength="10" pattern="\d{2}\.\d{3}\-\d{3}\">
+        </label>
+    </p>
+    <p>
+        <label for="id_city">
+            08-CIDADE/UF
+            <input id="id_city" type="text">
+            <select name="uf" id="id_uf">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceara</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label for="id_fone">
+            09-TELEFONE
+            <input id="id_fone" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="id_cell">
+            10-CELULAR
+            <input id="id_cell" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="id_email">
+            11-EMAIL
+            <input id="id_email" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="id_formacao">
+            12-FORMAÇÃO:
+            <input id="id_formacao" type="checkbox" value="1">
+            Ensino Fundamental
+            <input id="id_formacao" type="checkbox" value="2">
+            Ensino Médio
+            <input id="id_formacao" type="checkbox" value="3">
+            Ensino Superior
+            Qual:
+            <input id="id_formacao" type="text" required>
+        </label>
+    </p>
+    <p>
+        <label for="id_memoria">
+            13-EXISTE ALGUM ESPAÇO DESTINADO A PRESERVAR A MEMÓRIA NA SUA COMUNIDADE:
+            <input id="id_memoria" type="checkbox" value="1">
+            Sim
+            <input id="id_memoria" type="checkbox" value="2">
+            Não
+        </label>
+    </p>
+    <p>
+        <label for="id_trabalhou">
+            14-JÁ TRABALHOU COM ESPAÇO DE MEMÓRIA EM SUA COMUNIDADE?:
+            Sim
+            <input id="id_trabalhou" type="checkbox" value="1">
+            Não
+            <input id="id_trabalhou" type="checkbox" value="2">
+        </label>
+    </p>
+    <p>
+        15-EM CASO AFIRMATIVO, DESCREVA AS ATIVIDADES PRINCIPAIS QUE DESENVOLVE:
+        <label for="id_atividade">
+            <textarea name="atividade" id="id_atividade" cols="30" rows="5">
+            </textarea>
+        </label>
+    </p>
+    <p>
+        16-DESCREVA O MOTIVO QUE PRETENDE PARTICIPAR DESSE PROJETO:
+        <label for="id_motivo">
+            <textarea name="id_motivo" id="id_atividade" cols="30" rows="5">
+            </textarea>
+        </label>
+    </p>
+    <p>
+        <label for="id_disp">
+            17-VOCÊ TEM DISPONIBILIDADE PARA PARTICIPAR EFETIVAMENTE DAS OFICINAS?
+            Sim
+            <input id="id_disp" type="checkbox" value="1">
+            Não
+            <input id="id_disp" type="checkbox" value="2">
+        </label>
+    </p>
+    <p>
+        <label for="id_nome_ent">
+            18-NOME DA ENTIDADE
+            <input id="id_nome_ent" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="id_resp">
+            19-NOME COMPLETO DO RESPONSÁVEL LEGAL DA ENTIDADE
+            <input id="id_resp" type="text">
+        </label>
+    </p>
+    <p>
+        <label for="">
+            <input type="reset">
+            <input type="submit">
+        </label>
+    </p>
+
+    </form>
+</body>
+</html>

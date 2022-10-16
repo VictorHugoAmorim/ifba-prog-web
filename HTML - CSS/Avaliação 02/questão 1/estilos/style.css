@@ -1,0 +1,27 @@
+caption {
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.recuo-esquerda {
+    border-right: 1px solid black;
+    text-align: left;
+}
+
+.recuo-direita {
+    border-left: 1px solid black;
+    text-align: right;
+}
+
+.borda-inferior{
+    border-bottom: 1px solid black;
+}
+
+.borda{
+    border: 1px solid black;
+}

@@ -1,0 +1,30 @@
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.aprovado{
+    color: blue;
+}
+
+.reprovado{
+    color: red;
+}
+
+.trancamento{
+    color: black;
+}
+
+.legendas {
+    font-size:x-small;
+}

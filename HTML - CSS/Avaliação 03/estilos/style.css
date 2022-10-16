@@ -1,0 +1,49 @@
+.centralizado {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color:  #EEE;
+    font-weight: bold;
+    border: 1px solid black ;
+    padding: 4px;
+    text-align: left;
+}
+
+.recuo-esquerda{
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black ;
+    padding: 4px;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    
+}
+
+div {
+    font-size: smaller;
+    display: flex;
+
+
+}
+
+.topo-sem-borda {
+    border-top: none;
+    vertical-align: top;
+    padding: 2px;
+}
+
+.base-sem-borda {
+    border-bottom: none;
+    vertical-align: top;
+    padding: 2px;
+}
